@@ -26,7 +26,7 @@ image file. After selecting a file, it will give a preview of the image.
 Put the mouse on one of the side edges of the image and the mouse will
 change shape. Click and drag the image to the desired size and then
 there should be a loading screen while the seams are being found and
-removed.
+removed. Voila, the image has been seam carved.
 
 
 
