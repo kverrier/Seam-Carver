@@ -11,6 +11,7 @@ algorithm. Instead of removing columns of pixels, it finds vertical
 distortion.
 
 The files of interest are the following:
+
 -   GradientFilter.java
 -   SeamCarvingFilter.java
 -   SeamFinder.java
