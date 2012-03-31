@@ -1,6 +1,3 @@
-/**
- * 
- */
 package edu.cmu.cs211.seamcarving;
 
 import java.util.Arrays;
@@ -9,7 +6,8 @@ import java.util.Vector;
 
 /**
  * Class that is used to find the minimum energy vertical seam in an image
- * 
+ *
+ * @author Kyle Verrier
  */
 public class SeamFinder {
 

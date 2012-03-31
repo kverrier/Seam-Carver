@@ -7,6 +7,11 @@ import org.junit.Test;
 
 import edu.cmu.cs211.seamcarving.minweight.*;
 
+/**
+ * Runs the MinWeight JUnit test suite using the top down implementation.
+ *
+ * @author Kyle Verrier
+ */
 public class MinWeightTopDownTest extends MinWeightTest {
 
 	@Before

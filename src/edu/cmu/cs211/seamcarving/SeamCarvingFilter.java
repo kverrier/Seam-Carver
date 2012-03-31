@@ -1,6 +1,3 @@
-/**
- * 
- */
 package edu.cmu.cs211.seamcarving;
 
 import java.awt.image.BufferedImage;
@@ -22,6 +19,8 @@ import java.util.Vector;
  * 
  *          To see a cool demo, go to: {@link http
  *          ://www.youtube.com/watch?v=vIFCV2spKtg}
+ *
+ * @author Kyle Verrier
  * 
  */
 public class SeamCarvingFilter {

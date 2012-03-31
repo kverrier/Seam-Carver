@@ -8,7 +8,7 @@ import java.util.List;
  * of the lab, your implementation must be a valid, bottom-up dynamic
  * programming solution.
  * 
- * @author kverrier
+ * @author Kyle Verrier
  * 
  */
 public class MinWeightBottomUp extends MinWeight {

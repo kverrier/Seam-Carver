@@ -11,7 +11,7 @@ import java.util.Map;
  * of the lab, your implementation must be a valid, top-down dynamic programming
  * solution. Note that this applies for both minWeight() and minWeightList().
  * 
- * @author kverrier
+ * @author Kyle Verrier
  * 
  */
 public class MinWeightTopDown extends MinWeight {

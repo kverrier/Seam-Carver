@@ -1,6 +1,3 @@
-/**
- * 
- */
 package edu.cmu.cs211.seamcarving.tests;
 
 import static org.junit.Assert.*;
@@ -13,6 +10,11 @@ import org.junit.Test;
 import edu.cmu.cs211.seamcarving.GradientFilter;
 import edu.cmu.cs211.seamcarving.GrayImage;
 
+/**
+ * Testing Suite for the Gradient Filter.
+ *
+ * @author Kyle Verrier
+ */
 public class GradientFilterTest {
 	protected GradientFilter filter_;
 	int RANGE = 100; // scaled back for FD
@@ -48,7 +50,7 @@ public class GradientFilterTest {
 		}
 	}
 
-	/* ************************** MY TESTS ******************************** */
+  /* *****************************  TESTS ******************************** */
 
 	/* UTILITY STUFF */
 

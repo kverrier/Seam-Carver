@@ -1,6 +1,3 @@
-/**
- * 
- */
 package edu.cmu.cs211.seamcarving;
 
 /**
@@ -13,7 +10,8 @@ package edu.cmu.cs211.seamcarving;
  * where p(i,j) is the value of the pixel at (i,j)
  * 
  * Any point outside of the frame is considered to have a pixel value 0
- * 
+ *
+ * @author Kyle Verrier
  */
 public class GradientFilter {
 

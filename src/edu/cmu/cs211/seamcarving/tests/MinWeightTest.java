@@ -15,7 +15,7 @@ import edu.cmu.cs211.seamcarving.minweight.MinWeight;
  * Abstract class for testing a generic MinWeight implementation. We have
  * provided source that extends this class and automatically inherits all of
  * these tests for each implementation. That way, any tests you add here will
- * automatically show up for both implementations.a
+ * automatically show up for both implementations.
  * 
  * @author Ankur Goyal
  * 
@@ -92,10 +92,13 @@ public abstract class MinWeightTest {
 		runTestTuples(tests, true);
 	}
 
+
 	/* **************************** BASIC TESTS ************************** */
 
 	/**
 	 * Theory Homework Examples. Useful for debugging.
+   *
+   * @author Kyle Verrier
 	 */
 	@Test(timeout = 1000)
 	public void theoryExampleTest() {
@@ -115,6 +118,8 @@ public abstract class MinWeightTest {
 	/**
 	 * A bunch of random small examples with messing around with negatives and
 	 * ordering
+   *
+   * @author Kyle Verrier
 	 */
 	@Test
 	public void basicExamples() {
@@ -145,6 +150,8 @@ public abstract class MinWeightTest {
 
 	/**
 	 * Tests empty array
+   *
+   * @author Kyle Verrier
 	 */
 	@Test
 	public void testEmptyArray() {
@@ -155,6 +162,8 @@ public abstract class MinWeightTest {
 
 	/**
 	 * Tests null array
+   *
+   * @author Kyle Verrier
 	 */
 	@Test(expected = NullPointerException.class)
 	public void testNullArray() {
@@ -165,6 +174,8 @@ public abstract class MinWeightTest {
 
 	/**
 	 * Tests array with random null elements
+   *
+   * @author Kyle Verrier
 	 */
 	@Test(expected = NullPointerException.class)
 	public void testArrayWithNullElements() {
@@ -184,6 +195,8 @@ public abstract class MinWeightTest {
 
 	/**
 	 * Test arrays with single elements
+   *
+   * @author Kyle Verrier
 	 */
 	@Test
 	public void testSingleElements() {
@@ -205,6 +218,8 @@ public abstract class MinWeightTest {
 	/**
 	 * Test a lot of negative numbers and zeros which will always be included in
 	 * the minWeight and List
+   *
+   * @author Kyle Verrier
 	 */
 	@Test(timeout = 1000)
 	public void testNegativesAndZeros() {
@@ -236,6 +251,8 @@ public abstract class MinWeightTest {
 	 * and compares the sum of the list to the calculated weight. This does not
 	 * really deterministically test that the string is right but the
 	 * probability for a wrong result is low enough that it is still useful.
+   *
+   * @author Kyle Verrier
 	 */
 	@Test
 	public void stressTest() {
